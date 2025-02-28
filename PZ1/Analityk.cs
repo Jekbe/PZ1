@@ -2,7 +2,7 @@ namespace PZ1;
 
 public class Analityk : Pracownik
 {
-    private int LiczbaKlientow { get; }
+    public int LiczbaKlientow { get; }
 
     public Analityk()
     {
@@ -14,9 +14,9 @@ public class Analityk : Pracownik
         LiczbaKlientow = liczbaKlientow;
     }
     
-    protected override void IncresePensja(double increase)
+    public override void IncreasePensja(double increase)
     {
-        base.IncresePensja(increase * LiczbaKlientow);
+        base.IncreasePensja(increase * LiczbaKlientow);
     }
 
     public override string ToString()

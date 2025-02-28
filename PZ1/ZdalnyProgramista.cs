@@ -2,7 +2,7 @@ namespace PZ1;
 
 public class ZdalnyProgramista : Programista
 {
-    private int Odleglosc { get; }
+    public int Odleglosc { get; }
 
     public ZdalnyProgramista()
     {
@@ -14,9 +14,9 @@ public class ZdalnyProgramista : Programista
         Odleglosc = odleglosc;
     }
     
-    protected override void IncresePensja(double increase)
+    public override void IncreasePensja(double increase)
     {
-        base.IncresePensja(increase * 20 / Odleglosc);
+        base.IncreasePensja(increase * 20 / Odleglosc);
     }
 
     public override string ToString()

@@ -1,12 +1,13 @@
 ﻿namespace PZ1;
 
-class Program
+internal static class Program
 {
     private const double RocznyBudrzet = 5000000;
-    
-    static void Main(string[] args)
+    private static readonly List<Pracownik> Pracownicy = [];
+
+    private static void Main()
     {
-        var pracownicy = new List<Pracownik>();
+        
         
         var manager1 = new Manager();
         var manager2 = new Manager();
@@ -17,39 +18,88 @@ class Program
         var zdalnyProgramista1 = new ZdalnyProgramista();
         var zdalnyProgramista2 = new ZdalnyProgramista();
         
-        pracownicy.Add(manager1);
-        pracownicy.Add(manager2);
-        pracownicy.Add(analityk1);
-        pracownicy.Add(analityk2);
-        pracownicy.Add(programista1);
-        pracownicy.Add(programista2);
-        pracownicy.Add(zdalnyProgramista1);
-        pracownicy.Add(zdalnyProgramista2);
+        Pracownicy.Add(manager1);
+        Pracownicy.Add(manager2);
+        Pracownicy.Add(analityk1);
+        Pracownicy.Add(analityk2);
+        Pracownicy.Add(programista1);
+        Pracownicy.Add(programista2);
+        Pracownicy.Add(zdalnyProgramista1);
+        Pracownicy.Add(zdalnyProgramista2);
 
         var run = true;
         while (run)
         {
-            switch (Console.ReadLine())
+            Pomoc();
+            
+            switch (Convert.ToInt32(Console.ReadLine()))
             {
-                case "koniec":
+                case 0:
                     run = false;
                     break;
-                case "lista":
+                case 1:
+                    Lista();
                     break;
-                case "info":
+                case 2:
+                    Info();
                     break;
-                case "zwieksz":
+                case 3:
+                    Zwieksz();
                     break;
-                case "zwiekszWszystkim":
+                case 4:
+                    ZwiekszWszystkim();
                     break;
-                case "sortMalejoco":
+                case 5:
+                    SortMalejoco();
                     break;
-                case "podsumowanie":
+                case 6:
+                    Podsumowanie();
                     break;
                 default: 
                     Console.WriteLine("Nieznana opcja");
                     break;
             }
         }
+    }
+
+    private static void Lista()
+    {
+        Console.WriteLine("Pracownicy:");
+        foreach (var pracownik in Pracownicy)
+        {
+            Console.WriteLine(pracownik.Id);
+        }
+    }
+
+    private static void Info()
+    {
+        Console.WriteLine("Podaj id: ");
+        var pracownik = Pracownicy.FirstOrDefault(p => p.Id == Convert.ToInt32(Console.ReadLine()));
+        Console.WriteLine(pracownik);
+    }
+
+    private static void Zwieksz()
+    {
+        
+    }
+
+    private static void ZwiekszWszystkim()
+    {
+        
+    }
+
+    private static void SortMalejoco()
+    {
+        
+    }
+
+    private static void Podsumowanie()
+    {
+        
+    }
+
+    private static void Pomoc()
+    {
+        Console.WriteLine("koniec - 0");
     }
 }

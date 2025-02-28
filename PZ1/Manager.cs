@@ -2,7 +2,7 @@ namespace PZ1;
 
 public class Manager : Pracownik
 {
-    private int LiczbaProjektow { get; }
+    public int LiczbaProjektow { get; }
 
     public Manager()
     {
@@ -14,9 +14,9 @@ public class Manager : Pracownik
         LiczbaProjektow = liczbaProjektow;
     }
 
-    protected override void IncresePensja(double increase)
+    public override void IncreasePensja(double increase)
     {
-        base.IncresePensja(increase * LiczbaProjektow);
+        base.IncreasePensja(increase * LiczbaProjektow);
     }
 
     public override string ToString()

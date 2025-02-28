@@ -2,7 +2,7 @@ namespace PZ1;
 
 public class Programista : Pracownik
 {
-    private int LiczbaTechnologii { get; }
+    public int LiczbaTechnologii { get; }
 
     public Programista()
     {
@@ -14,9 +14,9 @@ public class Programista : Pracownik
         LiczbaTechnologii = liczbaTechnologii;
     }
     
-    protected override void IncresePensja(double increase)
+    public override void IncreasePensja(double increase)
     {
-        base.IncresePensja(increase * LiczbaTechnologii);
+        base.IncreasePensja(increase * LiczbaTechnologii);
     }
 
     public override string ToString()

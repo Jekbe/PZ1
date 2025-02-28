@@ -2,12 +2,12 @@ namespace PZ1;
 
 public abstract class Pracownik
 {
-    private int Id { get; }
-    private int Wiek { get; }
-    private string Imie { get; }
-    private string Nazwisko { get; }
-    private string Plec { get; }
-    private double Pensja { get; set; }
+    public int Id { get; }
+    public int Wiek { get; }
+    public string Imie { get; }
+    public string Nazwisko { get; }
+    public string Plec { get; }
+    public double Pensja { get; set; }
     
     protected Pracownik()
     {
@@ -29,7 +29,7 @@ public abstract class Pracownik
         Pensja = pensja;
     }
     
-    protected virtual void IncresePensja(double increase)
+    public virtual void IncreasePensja(double increase)
     {
         Pensja += increase;
     }
