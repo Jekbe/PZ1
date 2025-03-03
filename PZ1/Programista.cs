@@ -2,14 +2,13 @@ namespace PZ1;
 
 public class Programista : Pracownik
 {
-    public int LiczbaTechnologii { get; }
+    public int LiczbaTechnologii { get; set; }
 
     public Programista()
     {
-        LiczbaTechnologii = 6;
     }
 
-    public Programista(int id, int wiek, string imie, string nazwisko, string plec, double pensja, int liczbaTechnologii) : base(id, wiek, imie, nazwisko, plec, pensja)
+    public Programista(int id, string imie, string nazwisko, int wiek, string plec, double pensja, int liczbaTechnologii) : base(id, wiek, imie, nazwisko, plec, pensja)
     {
         LiczbaTechnologii = liczbaTechnologii;
     }
