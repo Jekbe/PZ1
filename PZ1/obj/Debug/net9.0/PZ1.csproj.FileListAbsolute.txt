@@ -1,0 +1,15 @@
+/home/jekbe/RiderProjects/PZ1/PZ1/bin/Debug/net9.0/PZ1
+/home/jekbe/RiderProjects/PZ1/PZ1/bin/Debug/net9.0/PZ1.deps.json
+/home/jekbe/RiderProjects/PZ1/PZ1/bin/Debug/net9.0/PZ1.runtimeconfig.json
+/home/jekbe/RiderProjects/PZ1/PZ1/bin/Debug/net9.0/PZ1.dll
+/home/jekbe/RiderProjects/PZ1/PZ1/bin/Debug/net9.0/PZ1.pdb
+/home/jekbe/RiderProjects/PZ1/PZ1/obj/Debug/net9.0/PZ1.GeneratedMSBuildEditorConfig.editorconfig
+/home/jekbe/RiderProjects/PZ1/PZ1/obj/Debug/net9.0/PZ1.AssemblyInfoInputs.cache
+/home/jekbe/RiderProjects/PZ1/PZ1/obj/Debug/net9.0/PZ1.AssemblyInfo.cs
+/home/jekbe/RiderProjects/PZ1/PZ1/obj/Debug/net9.0/PZ1.csproj.CoreCompileInputs.cache
+/home/jekbe/RiderProjects/PZ1/PZ1/obj/Debug/net9.0/PZ1.sourcelink.json
+/home/jekbe/RiderProjects/PZ1/PZ1/obj/Debug/net9.0/PZ1.dll
+/home/jekbe/RiderProjects/PZ1/PZ1/obj/Debug/net9.0/refint/PZ1.dll
+/home/jekbe/RiderProjects/PZ1/PZ1/obj/Debug/net9.0/PZ1.pdb
+/home/jekbe/RiderProjects/PZ1/PZ1/obj/Debug/net9.0/PZ1.genruntimeconfig.cache
+/home/jekbe/RiderProjects/PZ1/PZ1/obj/Debug/net9.0/ref/PZ1.dll
