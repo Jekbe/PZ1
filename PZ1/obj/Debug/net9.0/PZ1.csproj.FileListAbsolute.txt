@@ -1,0 +1,15 @@
+C:\Users\patry\RiderProjects\PZ1\PZ1\bin\Debug\net9.0\PZ1.exe
+C:\Users\patry\RiderProjects\PZ1\PZ1\bin\Debug\net9.0\PZ1.deps.json
+C:\Users\patry\RiderProjects\PZ1\PZ1\bin\Debug\net9.0\PZ1.runtimeconfig.json
+C:\Users\patry\RiderProjects\PZ1\PZ1\bin\Debug\net9.0\PZ1.dll
+C:\Users\patry\RiderProjects\PZ1\PZ1\bin\Debug\net9.0\PZ1.pdb
+C:\Users\patry\RiderProjects\PZ1\PZ1\obj\Debug\net9.0\PZ1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patry\RiderProjects\PZ1\PZ1\obj\Debug\net9.0\PZ1.AssemblyInfoInputs.cache
+C:\Users\patry\RiderProjects\PZ1\PZ1\obj\Debug\net9.0\PZ1.AssemblyInfo.cs
+C:\Users\patry\RiderProjects\PZ1\PZ1\obj\Debug\net9.0\PZ1.csproj.CoreCompileInputs.cache
+C:\Users\patry\RiderProjects\PZ1\PZ1\obj\Debug\net9.0\PZ1.sourcelink.json
+C:\Users\patry\RiderProjects\PZ1\PZ1\obj\Debug\net9.0\PZ1.dll
+C:\Users\patry\RiderProjects\PZ1\PZ1\obj\Debug\net9.0\refint\PZ1.dll
+C:\Users\patry\RiderProjects\PZ1\PZ1\obj\Debug\net9.0\PZ1.pdb
+C:\Users\patry\RiderProjects\PZ1\PZ1\obj\Debug\net9.0\PZ1.genruntimeconfig.cache
+C:\Users\patry\RiderProjects\PZ1\PZ1\obj\Debug\net9.0\ref\PZ1.dll
