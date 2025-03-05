@@ -2,14 +2,13 @@ namespace PZ1;
 
 public class ZdalnyProgramista : Programista
 {
-    public int Odleglosc { get; }
+    public int Odleglosc { get; set; }
 
     public ZdalnyProgramista()
     {
-        Odleglosc = 150;
     }
 
-    public ZdalnyProgramista(int id, int wiek, string imie, string nazwisko, string plec, double pensja, int liczbaTechnologii, int odleglosc) : base(id, wiek, imie, nazwisko, plec, pensja, liczbaTechnologii)
+    public ZdalnyProgramista(int id, string imie, string nazwisko, int wiek, string plec, double pensja, int liczbaTechnologii, int odleglosc) : base(id,  imie, nazwisko, wiek, plec, pensja, liczbaTechnologii)
     {
         Odleglosc = odleglosc;
     }
